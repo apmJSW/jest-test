@@ -5,6 +5,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint/eslint-plugin'],
+  include: ['./jest.config.ts'],
   extends: [
     'plugin:@typescript-eslint/recommended',
   ],
