@@ -1,11 +1,11 @@
-const {hash} = require('./userUtil');
+import { hash } from './userUtil';
 
-(async () => {
-  const a = await hash('1234');
-  const b = await hash('1234');
-  const c = await hash('1234');
+( async () => {
+  const a = await hash( '1234' );
+  const b = await hash( '1234' );
+  const c = await hash( '1234' );
 
-  console.log('a', a);
-  console.log('b', b);
-  console.log('c', c);
+  console.log( 'a', a );
+  console.log( 'b', b );
+  console.log( 'c', c );
 })();

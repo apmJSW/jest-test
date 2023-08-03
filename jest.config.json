@@ -1,6 +1,4 @@
-import type {Config} from '@jest/types'
-
-const config: Config.InitialOptions = {
+{
   "verbose": true,
   "testMatch": [
     "**/__tests__/**/*.+(ts|tsx)",
@@ -8,7 +6,5 @@ const config: Config.InitialOptions = {
   ],
   "transform": {
     "^.+\\.(ts|tsx)$": "ts-jest"
-  },
+  }
 }
-
-export default config
